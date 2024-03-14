@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-section {
+    width: 100%;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg);
+    background-size: cover;
+}
+
+.first-section header {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+
+
+}
+
+.first-section header .logo h2 {
+    font-family: sans-serif;
+    color: #cecac6;
+}
+
+.first-section header .logo h2:hover {
+    color: #fff;
+}
+
+.first-section header nav {
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+
+}
+
+.first-section header nav p {
+    color: #cecac6;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.first-section header nav p:hover {
+    color: #fff;
+
+}
+
+.first-section .content {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+    margin-top: 110px;
+}
+
+.first-section .content h3 {
+    color: #fff;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.first-section .content hr {
+    height: 3px;
+    width: 60px;
+    background-color: #F4623A;
+    border: none;
+}
+
+.first-section .content p {
+    color: #D3D0CD;
+    text-align: center;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+.first-section .content button {
+    width: 190px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #F4623A;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.first-section .content button:hover {
+    background-color: #c34e2e;
+}
+
+.container .second-section {
+    width: 100%;
+    height: 450px;
+    background-color: #F4623A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-section .content {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+    margin-top: 40px;
+}
+
+.second-section .content h3 {
+    color: #fff;
+    font-size: 45px;
+    font-family: sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+.second-section .content hr {
+    height: 3px;
+    width: 60px;
+    background-color: #fff;
+    border: none;
+}
+
+.second-section .content p {
+    color: #D3D0CD;
+    text-align: center;
+    font-size: 19px;
+    font-family: sans-serif;
+}
+
+.second-section .content button {
+    width: 190px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #fff;
+    border: none;
+    color: #000;
+    font-weight: 700;
+}
+
+
+.second-section .content button:hover {
+    background-color: #d3d4d5;
+}
+
+.container .third-section {
+    width: 100%;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 45px;
+    align-items: center;
+}
+
+.container .third-section h4 {
+    font-size: 35px;
+    font-family: sans-serif;
+    margin-top: 90px;
+}
+
+.container .third-section hr {
+    height: 3px;
+    width: 60px;
+    background-color: #F4623A;
+    border: none;
+}
+
+.container .third-section .cards {
+    width: 80%;
+    display: flex;
+    column-gap: 65px;
+    justify-content: center;
+
+}
+
+.container .third-section .cards .card {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: center;
+}
+
+.container .third-section .cards .card i {
+    font-size: 40px;
+    color: #F4623A;
+}
+
+.container .third-section .cards .card h5 {
+    font-size: 23px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.container .third-section .cards .card p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #6C757D;
+    text-align: center;
+}
+
+.container .fourth-section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+    align-items: center;
+}
+
+.container .fourth-section h4 {
+    font-size: 33px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+.container .fourth-section hr {
+    height: 3px;
+    width: 60px;
+    background-color: #F4623A;
+    border: none;
+}
+
+.container .fourth-section p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #6C757D;
+    text-align: center;
+}
+
+.container .fourth-section form {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.container .fourth-section form input {
+    padding: 15px;
+}
+
+.container .fourth-section form textarea {
+    padding: 15px;
+}
+
+.container .fourth-section form button {
+    height: 60px;
+    font-size: 18px;
+    border-radius: 30px;
+    background-color: #F8997F;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.container .fourth-section .contact {
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    align-items: center;
+
+}
+
+.container .fourth-section .contact i {
+    font-size: 35px;
+    color: #6C757D;
+    margin-top: 25px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8F9FA;
+    height: 100px;
+    margin-top: 80px;
+}
+
+footer p {
+    color: #6C757D;
+}
